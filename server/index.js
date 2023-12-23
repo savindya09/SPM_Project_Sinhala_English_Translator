@@ -16,7 +16,7 @@ app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
 const CONNECTION_URL =
-  "mongodb+srv://bhanukadidula78:bhanuka98@translator.iqeafbx.mongodb.net/";
+  "mongodb+srv://<<password>>:bhanuka98@translator.iqeafbx.mongodb.net/";
 
 const PORT = process.env.PORT || 5000;
 
